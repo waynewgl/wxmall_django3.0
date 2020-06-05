@@ -1,0 +1,24 @@
+{# Template: your_app/templates/admin/base_site.html #}
+{% extends "admin/base_site.html" %}
+{% load static i18n %}
+
+{# Setup favicon #}
+{% block extrahead %}<link rel="shortcut icon" type="image/png" href="{% static "../media/logo.png" %}"/>{% endblock %}
+
+{# Setup browser tab label #}
+{% block title %}{{ title }} |  {% trans "贝壳商城" %}{% endblock %}
+
+{# Setup branding #}
+{% block branding %}
+{#      <div class="head">#}
+{#        <h1 id="name">小卧智能</h1>#}
+{#        </div>#}
+
+        <a href="{% url 'admin:index' %}">
+            {# Your logo here #}
+            <img src="{% static "../media/logo.png" %}" alt="" height="50%" width="50%">
+            <br><br>
+            </span> <p style="color: #8B9AA7">{% trans "贝壳商城" %}</p>
+        </a>
+    </h1>
+{% endblock %}
