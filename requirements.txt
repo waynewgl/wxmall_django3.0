@@ -114,7 +114,7 @@ Twisted==20.3.0
 txaio==20.4.1
 uritemplate==3.0.0
 urllib3==1.22
-uvicorn==0.11.3
+uvicorn==0.11.7
 uvloop==0.14.0
 uWSGI==2.0.18
 vine==1.1.4
