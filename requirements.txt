@@ -94,7 +94,7 @@ pycodestyle==2.5.0
 pycparser==2.20
 pycryptodome==3.6.4
 pycryptodomex==3.9.4
-Pygments==2.6.1
+Pygments==2.7.4
 PyHamcrest==2.0.2
 PyJWT==1.6.1
 PyMySQL==0.9.3
