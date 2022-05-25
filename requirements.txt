@@ -96,7 +96,7 @@ pycryptodome==3.6.4
 pycryptodomex==3.9.4
 Pygments==2.6.1
 PyHamcrest==2.0.2
-PyJWT==1.6.1
+PyJWT==2.4.0
 PyMySQL==0.9.3
 pyOpenSSL==19.1.0
 python-alipay-sdk==2.0.1
